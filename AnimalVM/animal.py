@@ -4,8 +4,8 @@ from Observable import observable
 class Animal:
 
     def __init__(self, especie, edad):
-        self.edad = observable(edad)
-        self.especie = observable(especie)
+        self.edad = edad
+        self.especie = especie
 
 
     def voz(self):
